@@ -1,34 +1,41 @@
 form {
 	position: relative;
-	width: 500px;
-	height: 100px;
+	width: 290px;
+	height: 120px;
+	background: #F9F8F8;
+	padding: 5px;
 }
-span{
-	color: #cecece;
+div {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+span {
+	font-family: Arial;
+	color: #ccc;
+	font-size: 12px;
 }
 span.message {
+	font-family: Arial;
 	color: #010101;
 	font-size: 12px;
-	font-weight: bold;
-	font-family: Arial;
 	position: absolute;
-	top: 40px;
+	top: 85px;
 	padding: 5px;
 }
 .success {
 	color:#32CD32;
-	border: 1px solid #008000;
+	border: 2px solid #008000;
 }
 .error {
 	color:#8B0000;
-	border: 1px solid #FF0000;
+	border: 2px solid #FF0000;
 }
 .texto {
 	font-family: Arial;
 	color: #ccc;
 	font-size: 16px;
-	padding: 5px;
+	padding: 10px;
 	border: 1px solid #ccc;
-	font-weight: bold;
 	border-radius: 5px;
 }
